@@ -1,0 +1,22 @@
+{
+  "name": "projeto-random-n8n",
+  "version": "1.0.0",
+  "description": "Random.org integer generator node for n8n",
+  "main": "dist/Random.node.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "n8n",
+    "random",
+    "random.org"
+  ],
+  "author": "Fernanda Andrade",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.7"
+  }
+}
