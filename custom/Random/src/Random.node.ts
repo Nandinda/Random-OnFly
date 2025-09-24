@@ -10,7 +10,7 @@ export class Random implements INodeType {
   description: INodeTypeDescription = {
     displayName: 'Random',
     name: 'random',
-    icon: 'file:./src/icon.svg',
+    icon: 'file:icon.svg',
     group: ['transform'],
     version: 1,
     description: 'Gera um número aleatório usando Random.org',
@@ -80,3 +80,4 @@ export class Random implements INodeType {
     return this.prepareOutputData(returnData);
   }
 }
+
